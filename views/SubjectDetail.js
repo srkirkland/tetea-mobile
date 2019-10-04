@@ -1,13 +1,20 @@
 import React from "react";
+import * as WebBrowser from "expo-web-browser";
 
 import { FlatList, Text, TouchableOpacity, View } from "react-native";
 
 function Year(props) {
-    return (
-        <TouchableOpacity>
-            <Text>{props.year} - {props.name}</Text>
-        </TouchableOpacity>
-    );
+  const openUrl = async () => {
+    await WebBrowser.openBrowserAsync(props.uri);
+  };
+
+  return (
+    <TouchableOpacity onPress={openUrl}>
+      <Text>
+        {props.year} - {props.name}
+      </Text>
+    </TouchableOpacity>
+  );
 }
 
 export default function SubjectDetail(props) {
@@ -19,9 +26,7 @@ export default function SubjectDetail(props) {
       <Text>{subject.name}</Text>
       <FlatList
         data={subject.docs}
-        renderItem={({ item }) => (
-          <Year {...item} onPress={() => {}} />
-        )}
+        renderItem={({ item }) => <Year {...item} onPress={() => {}} />}
         keyExtractor={item => `${item.name}-${item.year}`}
       />
     </View>
