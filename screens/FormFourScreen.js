@@ -3,11 +3,10 @@ import { FlatList, Text, TouchableOpacity } from "react-native";
 
 import config from "../navigation/forms/FormFour";
 
+// show clickable subjects
 function Subject(props) {
   return (
-    <TouchableOpacity
-      onPress={props.onPress}
-    >
+    <TouchableOpacity onPress={props.onPress}>
       <Text>{props.name}</Text>
     </TouchableOpacity>
   );
@@ -16,14 +15,16 @@ function Subject(props) {
 export default function FormFourScreen(props) {
   const { subjects } = config;
 
-  const navigateToSubject = () => {
-    console.log(props);
+  const navigateToSubject = item => {
+    props.navigation.navigate("subjectDetail", item);
   };
 
   return (
     <FlatList
       data={subjects}
-      renderItem={({ item }) => <Subject {...item} onPress={navigateToSubject} />}
+      renderItem={({ item }) => (
+        <Subject {...item} onPress={_ => navigateToSubject(item)} />
+      )}
       keyExtractor={item => item.id}
     />
   );
