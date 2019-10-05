@@ -1,14 +1,21 @@
 import React from "react";
-import { FlatList, Text, TouchableOpacity } from "react-native";
+import { FlatList } from "react-native";
+import { ListItem } from "react-native-elements";
 
 import config from "../navigation/forms/FormFour";
 
 // show clickable subjects
 function Subject(props) {
   return (
-    <TouchableOpacity onPress={props.onPress}>
-      <Text>{props.name}</Text>
-    </TouchableOpacity>
+    <ListItem
+      title={props.name}
+      badge={{
+        value: props.docs.length
+      }}
+      onPress={props.onPress}
+      bottomDivider
+      chevron
+    />
   );
 }
 
@@ -33,11 +40,3 @@ export default function FormFourScreen(props) {
 FormFourScreen.navigationOptions = {
   title: "Form Four"
 };
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     paddingTop: 15,
-//     backgroundColor: "#fff"
-//   }
-// });
