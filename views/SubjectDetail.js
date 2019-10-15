@@ -1,30 +1,12 @@
 import React from "react";
-import * as WebBrowser from "expo-web-browser";
 
 import { FlatList, View } from "react-native";
-import { ListItem } from "react-native-elements";
 
-function Year(props) {
-  const openUrl = async () => {
-    await WebBrowser.openBrowserAsync(props.uri);
-  };
-
-  return (
-    <ListItem
-      title={props.year}
-      subtitle={props.name}
-      onPress={openUrl}
-      rightIcon={{ name: "picture-as-pdf" }}
-      bottomDivider
-      chevron
-    />
-  );
-}
+import Year from '../views/Year';
 
 export default function SubjectDetail(props) {
   const subject = props.navigation.state.params;
 
-  console.log("subject detail", props);
   return (
     <View>
       <FlatList
