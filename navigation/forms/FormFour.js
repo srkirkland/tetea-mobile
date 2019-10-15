@@ -17,6 +17,12 @@ const config = {
           name: "Questions",
           uri:
             "http://maktaba.tetea.org/past-papers/csee/civics/Civics%20-%20F4%20-%202017.pdf"
+        },
+        {
+          year: "2016",
+          name: "Questions",
+          uri:
+            "http://maktaba.tetea.org/past-papers/csee/civics/Civics-F4-2016.pdf"
         }
       ]
     },
