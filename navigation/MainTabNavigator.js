@@ -5,7 +5,7 @@ import {
   createBottomTabNavigator
 } from "react-navigation";
 
-import LinksScreen from '../screens/LinksScreen';
+import LinksScreen from "../screens/LinksScreen";
 import TabBarIcon from "../components/TabBarIcon";
 import HomeScreen from "../screens/HomeScreen";
 import SettingsScreen from "../screens/SettingsScreen";
@@ -29,16 +29,7 @@ const HomeStack = createStackNavigator(
 
 HomeStack.navigationOptions = {
   tabBarLabel: "Home",
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={
-        Platform.OS === "ios"
-          ? `ios-information-circle${focused ? "" : "-outline"}`
-          : "md-information-circle"
-      }
-    />
-  )
+  tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="home" />
 };
 
 HomeStack.path = "";
@@ -53,12 +44,7 @@ const FormTwoStack = createStackNavigator(
 
 FormTwoStack.navigationOptions = {
   tabBarLabel: "Form Two",
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === "ios" ? "ios-link" : "md-link"}
-    />
-  )
+  tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="filter-2" />
 };
 
 FormTwoStack.path = "";
@@ -73,12 +59,7 @@ const FormFourStack = createStackNavigator(
 
 FormFourStack.navigationOptions = {
   tabBarLabel: "Form Four",
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === "ios" ? "ios-link" : "md-link"}
-    />
-  )
+  tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="filter-4" />
 };
 
 FormFourStack.path = "";
@@ -93,12 +74,7 @@ const FormSixStack = createStackNavigator(
 
 FormSixStack.navigationOptions = {
   tabBarLabel: "Form Six",
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === "ios" ? "ios-link" : "md-link"}
-    />
-  )
+  tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="filter-6" />
 };
 
 FormSixStack.path = "";
@@ -112,12 +88,7 @@ const LinksStack = createStackNavigator(
 
 LinksStack.navigationOptions = {
   tabBarLabel: "Links",
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === "ios" ? "ios-link" : "md-link"}
-    />
-  )
+  tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="link" />
 };
 
 LinksStack.path = "";
@@ -131,12 +102,7 @@ const SettingsStack = createStackNavigator(
 
 SettingsStack.navigationOptions = {
   tabBarLabel: "Settings",
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === "ios" ? "ios-options" : "md-options"}
-    />
-  )
+  tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="settings" />
 };
 
 SettingsStack.path = "";
