@@ -1,7 +1,8 @@
 import React from "react";
 import * as WebBrowser from "expo-web-browser";
 
-import { FlatList, Text, TouchableOpacity, View } from "react-native";
+import { FlatList, View } from "react-native";
+import { ListItem } from "react-native-elements";
 
 function Year(props) {
   const openUrl = async () => {
@@ -9,11 +10,14 @@ function Year(props) {
   };
 
   return (
-    <TouchableOpacity onPress={openUrl}>
-      <Text>
-        {props.year} - {props.name}
-      </Text>
-    </TouchableOpacity>
+    <ListItem
+      title={props.year}
+      subtitle={props.name}
+      onPress={openUrl}
+      rightIcon={{ name: "picture-as-pdf" }}
+      bottomDivider
+      chevron
+    />
   );
 }
 
@@ -23,7 +27,6 @@ export default function SubjectDetail(props) {
   console.log("subject detail", props);
   return (
     <View>
-      <Text>{subject.name}</Text>
       <FlatList
         data={subject.docs}
         renderItem={({ item }) => <Year {...item} onPress={() => {}} />}
