@@ -5,13 +5,15 @@ import {
   createBottomTabNavigator
 } from "react-navigation";
 
+import LinksScreen from '../screens/LinksScreen';
 import TabBarIcon from "../components/TabBarIcon";
 import HomeScreen from "../screens/HomeScreen";
-import LinksScreen from "../screens/LinksScreen";
 import SettingsScreen from "../screens/SettingsScreen";
+import FormTwoScreen from "../screens/FormTwoScreen";
 import FormFourScreen from "../screens/FormFourScreen";
+import FormSixScreen from "../screens/FormSixScreen";
 
-import CommonNavigation from './CommonNavigation';
+import CommonNavigation from "./CommonNavigation";
 
 const config = Platform.select({
   web: { headerMode: "screen" },
@@ -41,6 +43,26 @@ HomeStack.navigationOptions = {
 
 HomeStack.path = "";
 
+const FormTwoStack = createStackNavigator(
+  {
+    FormTwo: FormTwoScreen,
+    ...CommonNavigation
+  },
+  config
+);
+
+FormTwoStack.navigationOptions = {
+  tabBarLabel: "Form Two",
+  tabBarIcon: ({ focused }) => (
+    <TabBarIcon
+      focused={focused}
+      name={Platform.OS === "ios" ? "ios-link" : "md-link"}
+    />
+  )
+};
+
+FormTwoStack.path = "";
+
 const FormFourStack = createStackNavigator(
   {
     FormFour: FormFourScreen,
@@ -60,6 +82,26 @@ FormFourStack.navigationOptions = {
 };
 
 FormFourStack.path = "";
+
+const FormSixStack = createStackNavigator(
+  {
+    FormSix: FormSixScreen,
+    ...CommonNavigation
+  },
+  config
+);
+
+FormSixStack.navigationOptions = {
+  tabBarLabel: "Form Six",
+  tabBarIcon: ({ focused }) => (
+    <TabBarIcon
+      focused={focused}
+      name={Platform.OS === "ios" ? "ios-link" : "md-link"}
+    />
+  )
+};
+
+FormSixStack.path = "";
 
 const LinksStack = createStackNavigator(
   {
@@ -101,8 +143,9 @@ SettingsStack.path = "";
 
 const tabNavigator = createBottomTabNavigator({
   HomeStack,
+  FormTwoStack,
   FormFourStack,
-  LinksStack,
+  FormSixStack,
   SettingsStack
 });
 
