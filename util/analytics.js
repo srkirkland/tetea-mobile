@@ -1,6 +1,5 @@
 import * as Amplitude from "expo-analytics-amplitude";
 let isInitialized = false;
-// TODO: dev api key
 const apiKey = "";
 
 export const events = {
@@ -9,8 +8,8 @@ export const events = {
 };
 
 export function initialize() {
-  if (isInitialized || !apiKey) {
-//   if (isInitialized || __DEV__ || !apiKey) {
+  //   if (isInitialized || !apiKey) {
+  if (isInitialized || __DEV__ || !apiKey) {
     return;
   }
 
