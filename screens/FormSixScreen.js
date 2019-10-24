@@ -8,6 +8,11 @@ export default function FormSixScreen(props) {
   const { subjects } = config;
 
   const navigateToSubject = item => {
+    analytics.track(analytics.events.SUBJECT_VIEWED, {
+      form: 6,
+      name: item.name
+    });
+
     props.navigation.navigate("subjectDetail", item);
   };
 
