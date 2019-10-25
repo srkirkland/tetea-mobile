@@ -1,11 +1,12 @@
 import React from "react";
 
-// TODO: change to form 2
-import config from "../navigation/forms/FormFour";
+// TODO: change to form 6
+import analytics from "../util/analytics";
+import formData from "../navigation/forms/FormFourData.json";
 import SubjectList from "../views/SubjectList";
 
 export default function FormSixScreen(props) {
-  const { subjects } = config;
+  const subjects = formData;
 
   const navigateToSubject = item => {
     analytics.track(analytics.events.SUBJECT_VIEWED, {
