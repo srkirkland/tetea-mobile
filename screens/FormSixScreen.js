@@ -10,7 +10,7 @@ export default function FormSixScreen(props) {
 
   const navigateToSubject = item => {
     analytics.track(analytics.events.SUBJECT_VIEWED, {
-      form: 6,
+      form: item.form,
       name: item.name
     });
 

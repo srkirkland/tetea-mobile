@@ -9,9 +9,10 @@ export default function FormFourScreen(props) {
 
   const navigateToSubject = item => {
     analytics.track(analytics.events.SUBJECT_VIEWED, {
-      form: 4,
+      form: item.form,
       name: item.name
     });
+    console.log("going to ", item);
     props.navigation.navigate("subjectDetail", item);
   };
 
