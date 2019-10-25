@@ -12,7 +12,6 @@ export default function FormFourScreen(props) {
       form: item.form,
       name: item.name
     });
-    console.log("going to ", item);
     props.navigation.navigate("subjectDetail", item);
   };
 

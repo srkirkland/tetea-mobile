@@ -17,12 +17,6 @@ export default function SubjectDetail(props) {
       name: item.name
     });
 
-    console.log("doc view", {
-      subject: subject.name,
-      form: subject.form,
-      year: item.year,
-      name: item.name
-    });
     await WebBrowser.openBrowserAsync(item.uri);
   };
 
