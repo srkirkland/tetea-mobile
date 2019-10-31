@@ -20,6 +20,10 @@ export function initialize() {
 export function track(event, properties) {
   initialize();
 
+  if (!isInitialized) {
+    return;
+  }
+
   if (properties) {
     Amplitude.logEventWithProperties(event, properties);
   } else {
