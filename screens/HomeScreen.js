@@ -6,8 +6,11 @@ import {
   ScrollView,
   StyleSheet,
   Text,
+  TouchableOpacity,
   View
 } from "react-native";
+
+import * as WebBrowser from "expo-web-browser";
 
 export default function HomeScreen() {
   return (
@@ -28,15 +31,23 @@ export default function HomeScreen() {
           <Text>
             To view the exams on your phone or computer you may need to download Adobe Reader:
           </Text>
+          <TouchableOpacity onPress={handleAcrobatPress}>
           <Image
             source={
               require("../assets/images/acrobat.png")
             }
             style={styles.welcomeImage}
           />
+          </TouchableOpacity>
         </View>
       </ScrollView>
     </View>
+  );
+}
+
+function handleAcrobatPress() {
+  WebBrowser.openBrowserAsync(
+    "https://get.adobe.com/reader/"
   );
 }
 
