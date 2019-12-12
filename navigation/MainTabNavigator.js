@@ -111,8 +111,8 @@ const tabNavigator = createBottomTabNavigator({
   HomeStack,
   FormTwoStack,
   FormFourStack,
-  FormSixStack,
-  SettingsStack
+  FormSixStack
+  // SettingsStack
 });
 
 tabNavigator.path = "";

@@ -1,6 +1,6 @@
-import * as WebBrowser from "expo-web-browser";
 import React from "react";
 import {
+  Dimensions,
   Image,
   Platform,
   ScrollView,
@@ -10,6 +10,8 @@ import {
   View
 } from "react-native";
 
+import * as WebBrowser from "expo-web-browser";
+
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
@@ -17,19 +19,7 @@ export default function HomeScreen() {
         style={styles.container}
         contentContainerStyle={styles.contentContainer}
       >
-        <View style={styles.welcomeContainer}>
-          <Image
-            source={
-              __DEV__
-                ? require("../assets/images/robot-dev.png")
-                : require("../assets/images/robot-prod.png")
-            }
-            style={styles.welcomeImage}
-          />
-        </View>
-
         <View style={{ padding: 10 }}>
-          <DevelopmentModeNotice />
 
           <Text style={{ fontSize: 40 }}>Welcome</Text>
 
@@ -37,8 +27,27 @@ export default function HomeScreen() {
             Karibu sana kwenye Maktaba ya TETEA!
           </Text>
         </View>
+        <View style={{ padding: 10 }}>
+          <Text>
+            To view the exams on your phone or computer you may need to download Adobe Reader:
+          </Text>
+          <TouchableOpacity onPress={handleAcrobatPress}>
+          <Image
+            source={
+              require("../assets/images/acrobat.png")
+            }
+            style={styles.welcomeImage}
+          />
+          </TouchableOpacity>
+        </View>
       </ScrollView>
     </View>
+  );
+}
+
+function handleAcrobatPress() {
+  WebBrowser.openBrowserAsync(
+    "https://get.adobe.com/reader/"
   );
 }
 
@@ -46,30 +55,8 @@ HomeScreen.navigationOptions = {
   title: 'Maktaba by Tetea'
 };
 
-function DevelopmentModeNotice() {
-  if (__DEV__) {
-    const learnMoreButton = (
-      <Text onPress={handleLearnMorePress} style={styles.helpLinkText}>
-        Learn more
-      </Text>
-    );
-
-    return (
-      <Text style={styles.developmentModeText}>
-        Development mode is enabled: your app will be slower but you can use
-        useful development tools. {learnMoreButton}
-      </Text>
-    );
-  } else {
-    return null;
-  }
-}
-
-function handleLearnMorePress() {
-  WebBrowser.openBrowserAsync(
-    "https://docs.expo.io/versions/latest/workflow/development-mode/"
-  );
-}
+const dimensions = Dimensions.get('window');
+const acrobatImageRatio = 100 / 404;
 
 const styles = StyleSheet.create({
   container: {
@@ -92,11 +79,9 @@ const styles = StyleSheet.create({
     marginBottom: 20
   },
   welcomeImage: {
-    width: 100,
-    height: 80,
-    resizeMode: "contain",
-    marginTop: 3,
-    marginLeft: -10
+    height: (dimensions.width * acrobatImageRatio) / 2,
+    width: dimensions.width / 2,
+    marginTop: 10
   },
   homeScreenFilename: {
     marginVertical: 7

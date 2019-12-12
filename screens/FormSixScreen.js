@@ -1,8 +1,7 @@
 import React from "react";
 
-// TODO: change to form 6
 import analytics from "../util/analytics";
-import formData from "../navigation/forms/FormFourData.json";
+import formData from "../navigation/forms/FormSixData.json";
 import SubjectList from "../views/SubjectList";
 
 export default function FormSixScreen(props) {

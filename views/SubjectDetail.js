@@ -23,7 +23,7 @@ export default function SubjectDetail(props) {
   return (
     <View>
       <FlatList
-        data={subject.docs}
+        data={subject.docs.sort((a,b) => a.year < b.year)}
         renderItem={({ item }) => (
           <Year {...item} onPress={_ => openUrl(item)} />
         )}

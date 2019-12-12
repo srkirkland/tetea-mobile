@@ -1,0 +1,928 @@
+[
+  {
+    "id": "Agriculture",
+    "name": "Agriculture",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202014.pdf"
+      },
+      {
+        "year": "2013",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202013.pdf"
+      },
+      {
+        "year": "2012",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202012.pdf"
+      },
+      {
+        "year": "2011",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202011.pdf"
+      },
+      {
+        "year": "2010",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202010.pdf"
+      },
+      {
+        "year": "2009",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202009.pdf"
+      },
+      {
+        "year": "2008",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/agriculture/Agriculture%20-%20F2%20-%202008.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Arabic",
+    "name": "Arabic",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/arabic/Arabic%20-%20F2%20-%202018.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Basic-Maths",
+    "name": "Basic Maths",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%202015%20-%20F2.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%202014%20-%20F2.pdf"
+      },
+      {
+        "year": "2013",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%202013%20-%20F2.pdf"
+      },
+      {
+        "year": "2012",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%20F2%20-%202012.pdf"
+      },
+      {
+        "year": "2011",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%202011%20-%20F2.pdf"
+      },
+      {
+        "year": "2009",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%20F2%20-%202009.pdf"
+      },
+      {
+        "year": "2008",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%20F2%20-%202008.pdf"
+      },
+      {
+        "year": "2007",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%202007%20-%20F2.pdf"
+      },
+      {
+        "year": "2006",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%202006%20-%20F2.pdf"
+      },
+      {
+        "year": "2005",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%202005%20-%20F2.pdf"
+      },
+      {
+        "year": "2004",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%202004%20-%20F2.pdf"
+      },
+      {
+        "year": "2003",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/math/Basic%20Math%20-%202003%20-%20F2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Bible-Knowledge",
+    "name": "Bible Knowledge",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/bible/Bible%20Knowledge%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2008",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/bible/Bible%20Knowledge%20-%20F2%20-%202008.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Biology",
+    "name": "Biology",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology-F2-2015.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%20F2%20-%202014.pdf"
+      },
+      {
+        "year": "2013",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%202013%20-%20F2.pdf"
+      },
+      {
+        "year": "2012",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%20F2%20-%202012.pdf"
+      },
+      {
+        "year": "2011",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology-F2-2011.pdf"
+      },
+      {
+        "year": "2009",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%20F2%20-%202009.pdf"
+      },
+      {
+        "year": "2008",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%20F2%20-%202008.pdf"
+      },
+      {
+        "year": "2007",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%202007%20-%20F2.pdf"
+      },
+      {
+        "year": "2006",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%202006%20-%20F2.pdf"
+      },
+      {
+        "year": "2005",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/biology/Biology%20-%202005%20-%20F2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Book-Keeping",
+    "name": "Book Keeping",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/bookkeeping/Book%20Keeping%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/bookkeeping/Book%20Keeping%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/bookkeeping/Book%20Keeping%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/bookkeeping/Bookkeeping%20-%202014%20-%20F2.pdf"
+      },
+      {
+        "year": "2013",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/bookkeeping/Bookkeeping-F2-2013.pdf"
+      },
+      {
+        "year": "2008",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/bookkeeping/Bookkeeping-F2-2008.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Chemistry",
+    "name": "Chemistry",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%20F2%20-%202014.pdf"
+      },
+      {
+        "year": "2013",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%202013%20-%20F2.pdf"
+      },
+      {
+        "year": "2007",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%202007%20-%20F2.pdf"
+      },
+      {
+        "year": "2006",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%202006%20-%20F2.pdf"
+      },
+      {
+        "year": "2005",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%202005%20-%20F2.pdf"
+      },
+      {
+        "year": "2004",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/chemistry/Chemistry%20-%20F2%20-%202004.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Civics",
+    "name": "Civics",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2019",
+        "name": "Paper",
+        "uri": "https://docs.google.com/document/d/18zDH9mBL7DtLp_FXHngngNaa5kjjGg9D0ij7xjWTfn4/edit"
+      },
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202014.pdf"
+      },
+      {
+        "year": "2012",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202012.pdf"
+      },
+      {
+        "year": "2009",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202009.pdf"
+      },
+      {
+        "year": "2008",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202008.pdf"
+      },
+      {
+        "year": "2007",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202007.pdf"
+      },
+      {
+        "year": "2006",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202006.pdf"
+      },
+      {
+        "year": "2005",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202005.pdf"
+      },
+      {
+        "year": "2004",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202004.pdf"
+      },
+      {
+        "year": "2002",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202002.pdf"
+      },
+      {
+        "year": "2001",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202001.pdf"
+      },
+      {
+        "year": "2000",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%202000.pdf"
+      },
+      {
+        "year": "1999",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%201999.pdf"
+      },
+      {
+        "year": "1992",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%201992.pdf"
+      },
+      {
+        "year": "1991",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%201991.pdf"
+      },
+      {
+        "year": "1989",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%201989.pdf"
+      },
+      {
+        "year": "1988",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/civics/Civics%20-%20F2%20-%201988.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Commerce",
+    "name": "Commerce",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/commerce/Commerce%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/commerce/Commerce%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/commerce/Commerce%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/commerce/Commerce%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/commerce/Commerce%20-%202014%20-%20F2.pdf"
+      },
+      {
+        "year": "2013",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/commerce/Commerce%20-%20F2%20-%202013.pdf"
+      },
+      {
+        "year": "2008",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/commerce/Commerce%20-%202008%20-%20F2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Computer-Studies",
+    "name": "Computer Studies",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2003",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/computer/Computer%20Studies%20-%20F2%20-%202003.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Dini-ya Kiislamu",
+    "name": "Dini ya Kiislamu",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/kiislamu/Dini%20ya%20Kiislamu%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/kiislamu/Dini%20ya%20Kiislamu%20-%20F2%20-%202015.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Electrical-Engineering",
+    "name": "Electrical Engineering",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/elec-engineering/Electrical%20Engineering%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/elec-engineering/Electrical%20Engineering%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/elec-engineering/Electrical%20Engineering%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2011",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/elec-engineering/Electrical%20Engineering%20-%20F2%20-%202011.pdf"
+      },
+      {
+        "year": "2009",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/elec-engineering/Electrical%20Engineering%20-%20F2%20-%202009.pdf"
+      },
+      {
+        "year": "2003",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/elec-engineering/Electrical%20Engineering%20-%20F2%20-%202003.pdf"
+      },
+      {
+        "year": "1986",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/elec-engineering/Electrical%20Engineering%20-%20F2%20-%201986.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Electrical-Installation",
+    "name": "Electrical Installation",
+    "form": "II",
+    "docs": [
+      {
+        "year": "1993",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/elec-installation/Electrical%20Installation%20-%20F2%20-%201993.pdf"
+      },
+      {
+        "year": "1992",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/elec-installation/Electrical%20Installation%20-%20F2%20-%201992.pdf"
+      }
+    ]
+  },
+  {
+    "id": "English",
+    "name": "English",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/english/English%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/english/English%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/english/English%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/english/English%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/english/English%20-%20F2%20-%202014.pdf"
+      },
+      {
+        "year": "2013",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/english/English-2013-F2.pdf"
+      },
+      {
+        "year": "2012",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/english/English%20-%20F2%20-%202012.pdf"
+      },
+      {
+        "year": "2011",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/english/English%20-%20F2%20-%202011.pdf"
+      },
+      {
+        "year": "2010",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/english/English%20-%20F2%20-%202010.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Geography",
+    "name": "Geography",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/geography/Geography%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/geography/Geography%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/geography/Geography%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/geography/Geography%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/geography/Geography%20-%20F2%20-%202014.pdf"
+      },
+      {
+        "year": "2011",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/geography/Geography%20-%202011%20-%20F2.pdf"
+      },
+      {
+        "year": "2006",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/geography/Geography%20-%20F2%20-%202006.pdf"
+      }
+    ]
+  },
+  {
+    "id": "History",
+    "name": "History",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2012",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202012.pdf"
+      },
+      {
+        "year": "2011",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%202011%20-%20F2.pdf"
+      },
+      {
+        "year": "2010",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202010.pdf"
+      },
+      {
+        "year": "2008",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202008.pdf"
+      },
+      {
+        "year": "2007",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202007.pdf"
+      },
+      {
+        "year": "2006",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202006.pdf"
+      },
+      {
+        "year": "2004",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202004.pdf"
+      },
+      {
+        "year": "2003",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202003.pdf"
+      },
+      {
+        "year": "2002",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202002.pdf"
+      },
+      {
+        "year": "2001",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202001.pdf"
+      },
+      {
+        "year": "2000",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%202000.pdf"
+      },
+      {
+        "year": "1999",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%201999.pdf"
+      },
+      {
+        "year": "1993",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%201993.pdf"
+      },
+      {
+        "year": "1992",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%201992.pdf"
+      },
+      {
+        "year": "1991",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/history/History%20-%20F2%20-%201991.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Kiswahili",
+    "name": "Kiswahili",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/kiswahili/Kiswahili%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/kiswahili/Kiswahili%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/kiswahili/Kiswahili%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/kiswahili/Kiswahili%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/kiswahili/Kiswahili%20-%20F2%20-%202014.pdf"
+      },
+      {
+        "year": "2011",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/kiswahili/Kiswahili%20-%20F2%20-%202011.pdf"
+      }
+    ]
+  },
+  {
+    "id": "Physics",
+    "name": "Physics",
+    "form": "II",
+    "docs": [
+      {
+        "year": "2018",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%20F2%20-%202018.pdf"
+      },
+      {
+        "year": "2017",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%20F2%20-%202017.pdf"
+      },
+      {
+        "year": "2016",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%20F2%20-%202016.pdf"
+      },
+      {
+        "year": "2015",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%20F2%20-%202015.pdf"
+      },
+      {
+        "year": "2014",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202014%20-%20F2.pdf"
+      },
+      {
+        "year": "2013",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202013%20-%20F2.pdf"
+      },
+      {
+        "year": "2012",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics-F2-2012.pdf"
+      },
+      {
+        "year": "2011",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics-F2-2011.pdf"
+      },
+      {
+        "year": "2010",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202010%20-%20F2.pdf"
+      },
+      {
+        "year": "2009",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202009%20-%20F2.pdf"
+      },
+      {
+        "year": "2008",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202008%20-%20F2.pdf"
+      },
+      {
+        "year": "2007",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202007%20-%20F2.pdf"
+      },
+      {
+        "year": "2006",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202006%20-%20F2.pdf"
+      },
+      {
+        "year": "2005",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202005%20-%20F2.pdf"
+      },
+      {
+        "year": "2003",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202003%20-%20F2.pdf"
+      },
+      {
+        "year": "2002",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202002%20-%20F2.pdf"
+      },
+      {
+        "year": "2001",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202001%20-%20F2.pdf"
+      },
+      {
+        "year": "2000",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%202000%20-%20F2.pdf"
+      },
+      {
+        "year": "1992",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%20F2%20-%201992.pdf"
+      },
+      {
+        "year": "1988",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%20F2%20-%201988.pdf"
+      },
+      {
+        "year": "1987",
+        "name": "Paper",
+        "uri": "https://maktaba.tetea.org/past-papers/form_ii/physics/Physics%20-%20F2%20-%201987.pdf"
+      }
+    ]
+  }
+]
