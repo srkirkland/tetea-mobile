@@ -1,9 +1,8 @@
 import React from "react";
 import { Platform } from "react-native";
-import {
-  createStackNavigator,
-  createBottomTabNavigator
-} from "react-navigation";
+
+import { createStackNavigator } from "react-navigation-stack";
+import { createBottomTabNavigator } from "react-navigation-tabs";
 
 import LinksScreen from "../screens/LinksScreen";
 import TabBarIcon from "../components/TabBarIcon";
