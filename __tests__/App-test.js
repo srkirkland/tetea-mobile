@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 
 import App from '../App';
 
-jest.mock('expo', () => ({
+jest.mock('expo-app-loading', () => ({
   AppLoading: 'AppLoading',
 }));
 
