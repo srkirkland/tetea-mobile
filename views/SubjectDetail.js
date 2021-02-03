@@ -12,7 +12,7 @@ export default function SubjectDetail(props) {
   const openUrl = async item => {
     analytics.track(analytics.events.DOCUMENT_VIEWED, {
       subject: subject.name,
-      form: subject.form,
+      level: subject.level,
       year: item.year,
       name: item.name
     });

@@ -1,15 +1,15 @@
 import React from "react";
 
 import analytics from "../util/analytics";
-import formData from "../navigation/forms/FormFourData.json";
+import { getDataForLevel } from '../constants/LevelData';
 import SubjectList from "../views/SubjectList";
 
 export default function FormFourScreen(props) {
-  const subjects = formData;
+  const subjects = getDataForLevel('Form IV');
 
   const navigateToSubject = item => {
     analytics.track(analytics.events.SUBJECT_VIEWED, {
-      form: item.form,
+      level: item.level,
       name: item.name
     });
     props.navigation.navigate("subjectDetail", item);
