@@ -1,38 +1,19 @@
-import * as Amplitude from "expo-analytics-amplitude";
-let isInitialized = false;
-const apiKey = "";
+import * as Analytics from "expo-firebase-analytics";
 
 export const events = {
   SUBJECT_VIEWED: "SUBJECT_VIEWED",
-  DOCUMENT_VIEWED: "DOCUMENT_VIEWED"
+  DOCUMENT_VIEWED: "DOCUMENT_VIEWED",
 };
 
-export function initialize() {
-  //   if (isInitialized || !apiKey) {
-  if (isInitialized || __DEV__ || !apiKey) {
-    return;
-  }
-
-  Amplitude.initialize(apiKey);
-  isInitialized = true;
+export function track(event, properties) {
+  Analytics.logEvent(event, properties);
 }
 
-export function track(event, properties) {
-  initialize();
-
-  if (!isInitialized) {
-    return;
-  }
-
-  if (properties) {
-    Amplitude.logEventWithProperties(event, properties);
-  } else {
-    Amplitude.logEvent(event);
-  }
+export function setScreenView(name) {
+  Analytics.setCurrentScreen(name);
 }
 
 export default {
   events,
-  initialize,
-  track
+  track,
 };
