@@ -11,6 +11,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png"
       },
+      "googleServicesFile": "./google-services.json",
       "package": "org.tetea.maktaba",
       "versionCode": 2
     },
@@ -29,7 +30,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "org.tetea.maktaba",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "web": {
+      "config": {
+        "firebase": {
+          "appId": "1:527853566486:web:80dca94e59c3675217d337",
+          "apiKey": "AIzaSyBGkcSQ_ZEdHPhG5uc3U_F7_vw2UR1duoM",
+          "measurementId": "G-B3LKXRDSV0"
+        }
+      }
     }
   }
 }
