@@ -9,6 +9,8 @@ import FormTwoScreen from "../screens/FormTwoScreen";
 import FormFourScreen from "../screens/FormFourScreen";
 import FormSixScreen from "../screens/FormSixScreen";
 
+import SubjectDetail from "../views/SubjectDetail";
+
 export default function Navigation() {
   return (
     <NavigationContainer theme={DefaultTheme}>
@@ -31,6 +33,11 @@ function RootNavigator() {
         component={BottomTabNavigator}
         options={{ headerShown: false }}
       />
+      <Stack.Screen
+        name="subjectDetail"
+        component={SubjectDetail}
+        options={({ route }) => ({ title: route.params.name })}
+      />
     </Stack.Navigator>
   );
 }
@@ -49,6 +56,7 @@ function BottomTabNavigator() {
         component={HomeScreen}
         options={({ navigation }) => ({
           title: "Home",
+          headerShown: false,
           tabBarIcon: ({ focused }) => (
             <TabBarIcon focused={focused} name="home" />
           ),
