@@ -7,7 +7,7 @@ import analytics from "../util/analytics";
 import Year from "../views/Year";
 
 export default function SubjectDetail(props) {
-  const subject = props.navigation.state.params;
+  const subject = props.route.params;
 
   const openUrl = async item => {
     analytics.track(analytics.events.DOCUMENT_VIEWED, {
@@ -32,9 +32,3 @@ export default function SubjectDetail(props) {
     </View>
   );
 }
-
-SubjectDetail.navigationOptions = ({ navigation }) => {
-  return {
-    title: navigation.state.params.name
-  };
-};
